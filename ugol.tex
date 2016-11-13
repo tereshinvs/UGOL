@@ -1,0 +1,35 @@
+\documentclass[11pt]{article}
+
+\usepackage{a4wide}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+
+\newtheorem{theorem}{Теорема}
+\newtheorem{defenition}{Определение}
+\newtheorem{proposition}{Утверждение}
+
+\newcommand*{\hm}[1]{#1\nobreak\discretionary{}{\hbox{$\mathsurround=0pt #1$}}{}}
+\newcommand\abs[1]{\left\lvert#1\right\rvert}
+\newcommand{\scalar}[2]{\left<#1,#2\right>}
+\newcommand{\norm}[1]{\left\lVert #1 \right\lVert}
+\renewcommand{\d}[1]{\ensuremath{\operatorname{d}\!{#1}}}
+\newcommand{\const}{\ensuremath{\operatorname{const}}}
+\newcommand{\sgn}{\ensuremath{\operatorname{sgn}}}
+
+\begin{document}
+\section{Задача 1}
+\subsection{Формулировка}
+Пусть имеется квадрат со стороной 1. Из каждой вершины квадрата внутрь проведены дуги окружностей с радиусом 1. Они окраничили внутри квадрата некоторую криволинейную фигуру. Необходимо найти её площадь.
+
+%\includegraphics[scale=0.8]{pics/problem1_picture1.eps}
+
+\subsection{Решение 1}
+Назовём точки следующим образом:
+%\includegraphics[scale=0.8]{pics/problem1_picture3.eps}
+\include{pics/problem1_picture3}
+\end{document}
